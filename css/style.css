@@ -1,0 +1,281 @@
+* {box-sizing: content-box; margin: 0px; padding: 0px;}
+
+.first_sect {background-image:url(../PICS/A2.jpg); background-repeat: no-repeat; width: 100%;
+background-size: cover;
+}
+.first_div {background-color: rgb(0,0,0,0.7);}
+.navbar {display: flex; justify-content: space-between; align-items: center; background-color:transparent; color: white;}
+.brand-title {font-size: 14px; padding: 0; padding-bottom: 2px; color: rgb(220,20,60);}
+.scrolled {position: fixed;}
+.navbar-links ul {padding: 0; margin: 0px; display: flex; text-indent: 20px; text-decoration: none; list-style-type: none; color: white; right: 10px;}
+.navbar-links ul li a {color: white; font-size: 12px;}
+.navbar-links ul li a:hover {color: rgb(220,20,60); text-decoration: none;}
+.toggle-button {position: absolute; top: .75rem; right: 1rem; display: none; flex-direction: column; justify-content: space-between; width: 30px; height: 21px;}
+.toggle-button .bar {height: 3px; width: 100%; background-color: white; border-radius: 10px;}
+.gut {background-color: rgb(220,20,60); color: #FFFFF0; width: 100px; border-radius: 5px; border: 1px solid rgb(220,20,60); height: 30px; text-align: center; font-size: 12px;}
+.brt {background-color: black; color: #FFFFF0; width: 100px; border-top-right-radius: 5px; border:none; height: 30px; text-align: center; font-size: 12px;}
+.pit {background-color: #D3D3D3; color: black; width: 60%; border-top-left-radius: 5px; border:none; height: 30px; text-align: center; font-size: 12px;}
+.mypics {
+         border-radius: 50%;
+
+}
+.pic {
+       border: 4px solid white;
+       border-radius: 50%;
+       margin-left: 44%;
+       margin-bottom: -5%;
+}
+.get {background-color: rgb(220,20,60); color: #FFFFF0; width: 120px; border-radius: 5px; border: 1px solid rgb(220,20,60); height: 40px; text-align: center;}
+.heard {font-size: 20px; font-weight: 800; color: rgb(220,20,60);}
+.hearde {font-size: 24px; font-weight: 800; color: rgb(220,20,60); text-align: center; font-style: italic;}
+.para {font-size: 16px; color: grey;}
+.hearder_r {margin-top: 10%; margin-left: 5%;}
+.hearder_one {color: white; font-size: 40px;}
+.hearder_two {color: white; font-size: 19px;}
+.got {background-color: transparent; color: white; width: 200px; border-radius: 5px; border: 1px solid rgb(220,20,60); height: 40px; margin-bottom: 20px;}
+.gat {background-color: rgb(220,20,60); color: white; width: 200px; border-radius: 5px; border: 1px solid rgb(220,20,60); height: 40px; margin-bottom: 20px;}
+.gat:hover {background-color: transparent; color: black;}
+.got:hover {background-color: rgb(220,20,60); color: black;}
+.tik:hover {background-color: rgb(220,20,60); text-decoration: none; color: white;}
+.img2 {width: 170px; height: 150px; padding: 15px;}
+.skill {
+      font-weight: 700;
+      list-style-type: none;
+      padding: 7px;
+}
+.school {
+   font-size: 14px;
+   font-weight: 700;
+}
+.educate {
+       color: rgb(220,20,60);
+       font-size: 16px;
+       font-weight: 800;
+}
+#myProgress {
+  width: 100%;
+  background-color: rgb(224, 142, 142);
+}
+
+#myBar {
+  width: 80%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+#myBar2 {
+  width: 40%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+#myBar3 {
+  width: 40%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+#myBar4 {
+  width: 80%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+#myBar5 {
+  width: 99%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+#myBar6 {
+  width: 40%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+#myBar7 {
+  width: 40%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+#myBar8 {
+  width: 40%;
+  height: 30px;
+  background-color: rgb(220,20,60);
+}
+.icons_contain {
+   background-color: black;
+}
+.icons_container{
+  display: inline-flex;
+  margin-left: 40%;
+  margin-top: 7%;
+}
+.icons_container .icon{
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.icons_container .icon span{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size:19px;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+
+.icons_container .icon .tooltip{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.icons_container .icon:hover .tooltip{
+  top: -60px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.icons_container .icon:hover span{
+  color: #fff;
+}
+.icons_container .icon:hover span,
+.icons_container .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.icons_container .facebook:hover span,
+.icons_container .facebook:hover .tooltip,
+.icons_container .facebook:hover .tooltip:before{
+  background: #3B5999;
+}
+.icons_container .twitter:hover span,
+.icons_container .twitter:hover .tooltip,
+.icons_container .twitter:hover .tooltip:before{
+  background: #46C1F6;
+}
+.icons_container .instagram:hover span,
+.icons_container .instagram:hover .tooltip,
+.icons_container .instagram:hover .tooltip:before{
+  background: #e1306c;
+}
+.icons_container .github:hover span,
+.icons_container .github:hover .tooltip,
+.icons_container .github:hover .tooltip:before{
+  background: #333;
+}
+.icons_container .youtube:hover span,
+.icons_container .youtube:hover .tooltip,
+.icons_container .youtube:hover .tooltip:before{
+  background: #DE463B;
+}
+.boarder1 {
+        box-shadow: 10px 10px 5px;
+}
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.contact_us {
+        background-color: rgb(3, 3, 3, 0.4);
+}
+.contact_us2 {
+  background-image:url(../PICS/work.png); background-repeat: no-repeat; width: 100%; height: 100%;
+background-size: cover;
+}
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+.exp {
+  background-image:url(../PICS/work.png);
+}
+.exp {
+    color: white;
+    padding-top: 100PX;
+    padding-bottom: 100PX;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+@media (max-width: 800px) {
+  * {box-sizing: content-box; margin: 0px; padding: 0px;}
+  .navbar-links {display: none;width: 100%;}
+  .navbar {flex-direction: column; align-items: flex-start;}
+  .navbar-links ul { width: 100%; display: flex; flex-direction: column; text-align: center;}
+  .navbar-links ul li {padding-bottom: 40px;}
+  .navbar-links ul li:hover {width: 100%; background-color: rgb(0,0,0,0.7);}
+  .toggle-button {display: flex;}
+  hr.solid { border-top: 3px solid rgb(0,100,0); width: 40%;}
+  .bar1 {display: flex;}
+  .bar2 {display: flex;}
+  .bar3 {display: flex;}
+  .navbar-links.active {display : flex;}
+.first_sect {background-image:url(bgs.jpg); background-repeat: no-repeat; width: 100%;}
+.hearder_r {margin-top: 30%; margin-left: 5%;}
+.img2 {width: 200px; height: 170px; padding: 15px;}
+}
